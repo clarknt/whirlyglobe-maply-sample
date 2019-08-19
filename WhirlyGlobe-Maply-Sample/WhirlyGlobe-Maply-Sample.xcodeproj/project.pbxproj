@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		15D70C790B7A9A6F6713A8F9 /* Pods_WhirlyGlobe_Maply_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2535F997B3CCD8109FC66B7D /* Pods_WhirlyGlobe_Maply_Sample.framework */; };
+		95EEA8EF230B233D001782EA /* LayerSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EEA8EE230B233D001782EA /* LayerSource.swift */; };
 		95EF479D230A309100ED72E8 /* geography-class.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 95EF479B230A309100ED72E8 /* geography-class.mbtiles */; };
 		95EF479E230A309100ED72E8 /* control-room.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 95EF479C230A309100ED72E8 /* control-room.mbtiles */; };
 		95EF47A3230A30AA00ED72E8 /* RemoteTilesSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF479F230A30AA00ED72E8 /* RemoteTilesSource.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		2535F997B3CCD8109FC66B7D /* Pods_WhirlyGlobe_Maply_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhirlyGlobe_Maply_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EEA8EE230B233D001782EA /* LayerSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerSource.swift; sourceTree = "<group>"; };
 		95EF479B230A309100ED72E8 /* geography-class.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = "geography-class.mbtiles"; sourceTree = "<group>"; };
 		95EF479C230A309100ED72E8 /* control-room.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = "control-room.mbtiles"; sourceTree = "<group>"; };
 		95EF479F230A30AA00ED72E8 /* RemoteTilesSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteTilesSource.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				95EF47A2230A30AA00ED72E8 /* TilesSource.swift */,
 				95EF47A0230A30AA00ED72E8 /* LocalTilesSource.swift */,
 				95EF479F230A30AA00ED72E8 /* RemoteTilesSource.swift */,
+				95EEA8EE230B233D001782EA /* LayerSource.swift */,
 				95F089C0230A04F3009B61DB /* Assets.xcassets */,
 				95F089C2230A04F3009B61DB /* LaunchScreen.storyboard */,
 				95F089C5230A04F3009B61DB /* Info.plist */,
@@ -228,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95EEA8EF230B233D001782EA /* LayerSource.swift in Sources */,
 				95EF47A8230A31CE00ED72E8 /* MainViewController.swift in Sources */,
 				95EF47A4230A30AA00ED72E8 /* LocalTilesSource.swift in Sources */,
 				95EF47A6230A30AA00ED72E8 /* TilesSource.swift in Sources */,
