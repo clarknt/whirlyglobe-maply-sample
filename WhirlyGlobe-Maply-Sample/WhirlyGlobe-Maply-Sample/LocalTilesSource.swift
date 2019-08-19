@@ -8,8 +8,8 @@
 
 import Foundation
 
-struct LocalMapSource: MapSource {
-    var type: MapSourceType { get { return .local } }
+struct LocalTilesSource: TilesSource {
+    var type: TilesSourceType { get { return .local } }
     var name: String
 
     static let suffix = ".mbtiles"

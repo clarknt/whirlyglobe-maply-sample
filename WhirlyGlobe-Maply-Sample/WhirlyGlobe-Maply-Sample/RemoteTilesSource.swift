@@ -8,8 +8,8 @@
 
 import Foundation
 
-struct RemoteMapSource: MapSource {
-    var type: MapSourceType { get { return .remote } }
+struct RemoteTilesSource: TilesSource {
+    var type: TilesSourceType { get { return .remote } }
     var name: String
     
     let url: String

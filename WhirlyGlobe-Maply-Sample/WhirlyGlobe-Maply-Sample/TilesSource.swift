@@ -8,12 +8,12 @@
 
 import Foundation
 
-enum MapSourceType {
+enum TilesSourceType {
     case local
     case remote
 }
 
-protocol MapSource {
-    var type: MapSourceType { get }
+protocol TilesSource {
+    var type: TilesSourceType { get }
     var name: String { get }
 }

@@ -10,10 +10,10 @@
 		15D70C790B7A9A6F6713A8F9 /* Pods_WhirlyGlobe_Maply_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2535F997B3CCD8109FC66B7D /* Pods_WhirlyGlobe_Maply_Sample.framework */; };
 		95EF479D230A309100ED72E8 /* geography-class.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 95EF479B230A309100ED72E8 /* geography-class.mbtiles */; };
 		95EF479E230A309100ED72E8 /* control-room.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 95EF479C230A309100ED72E8 /* control-room.mbtiles */; };
-		95EF47A3230A30AA00ED72E8 /* RemoteMapSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF479F230A30AA00ED72E8 /* RemoteMapSource.swift */; };
-		95EF47A4230A30AA00ED72E8 /* LocalMapSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF47A0230A30AA00ED72E8 /* LocalMapSource.swift */; };
-		95EF47A6230A30AA00ED72E8 /* MapSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF47A2230A30AA00ED72E8 /* MapSource.swift */; };
-		95EF47A8230A31CE00ED72E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF47A7230A31CE00ED72E8 /* ViewController.swift */; };
+		95EF47A3230A30AA00ED72E8 /* RemoteTilesSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF479F230A30AA00ED72E8 /* RemoteTilesSource.swift */; };
+		95EF47A4230A30AA00ED72E8 /* LocalTilesSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF47A0230A30AA00ED72E8 /* LocalTilesSource.swift */; };
+		95EF47A6230A30AA00ED72E8 /* TilesSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF47A2230A30AA00ED72E8 /* TilesSource.swift */; };
+		95EF47A8230A31CE00ED72E8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF47A7230A31CE00ED72E8 /* MainViewController.swift */; };
 		95EF47AD230A32B600ED72E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95EF47AB230A32B500ED72E8 /* Main.storyboard */; };
 		95F089BA230A04F2009B61DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F089B9230A04F2009B61DB /* AppDelegate.swift */; };
 		95F089C1230A04F3009B61DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F089C0230A04F3009B61DB /* Assets.xcassets */; };
@@ -24,10 +24,10 @@
 		2535F997B3CCD8109FC66B7D /* Pods_WhirlyGlobe_Maply_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhirlyGlobe_Maply_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EF479B230A309100ED72E8 /* geography-class.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = "geography-class.mbtiles"; sourceTree = "<group>"; };
 		95EF479C230A309100ED72E8 /* control-room.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = "control-room.mbtiles"; sourceTree = "<group>"; };
-		95EF479F230A30AA00ED72E8 /* RemoteMapSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteMapSource.swift; sourceTree = "<group>"; };
-		95EF47A0230A30AA00ED72E8 /* LocalMapSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalMapSource.swift; sourceTree = "<group>"; };
-		95EF47A2230A30AA00ED72E8 /* MapSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapSource.swift; sourceTree = "<group>"; };
-		95EF47A7230A31CE00ED72E8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95EF479F230A30AA00ED72E8 /* RemoteTilesSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteTilesSource.swift; sourceTree = "<group>"; };
+		95EF47A0230A30AA00ED72E8 /* LocalTilesSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalTilesSource.swift; sourceTree = "<group>"; };
+		95EF47A2230A30AA00ED72E8 /* TilesSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TilesSource.swift; sourceTree = "<group>"; };
+		95EF47A7230A31CE00ED72E8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		95EF47AC230A32B500ED72E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95F089B6230A04F2009B61DB /* WhirlyGlobe-Maply-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhirlyGlobe-Maply-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F089B9230A04F2009B61DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,12 +98,12 @@
 		95F089B8230A04F2009B61DB /* WhirlyGlobe-Maply-Sample */ = {
 			isa = PBXGroup;
 			children = (
-				95EF47A0230A30AA00ED72E8 /* LocalMapSource.swift */,
-				95EF47A2230A30AA00ED72E8 /* MapSource.swift */,
-				95EF479F230A30AA00ED72E8 /* RemoteMapSource.swift */,
 				95F089B9230A04F2009B61DB /* AppDelegate.swift */,
+				95EF47A7230A31CE00ED72E8 /* MainViewController.swift */,
 				95EF47AB230A32B500ED72E8 /* Main.storyboard */,
-				95EF47A7230A31CE00ED72E8 /* ViewController.swift */,
+				95EF47A2230A30AA00ED72E8 /* TilesSource.swift */,
+				95EF47A0230A30AA00ED72E8 /* LocalTilesSource.swift */,
+				95EF479F230A30AA00ED72E8 /* RemoteTilesSource.swift */,
 				95F089C0230A04F3009B61DB /* Assets.xcassets */,
 				95F089C2230A04F3009B61DB /* LaunchScreen.storyboard */,
 				95F089C5230A04F3009B61DB /* Info.plist */,
@@ -228,11 +228,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95EF47A8230A31CE00ED72E8 /* ViewController.swift in Sources */,
-				95EF47A4230A30AA00ED72E8 /* LocalMapSource.swift in Sources */,
-				95EF47A6230A30AA00ED72E8 /* MapSource.swift in Sources */,
+				95EF47A8230A31CE00ED72E8 /* MainViewController.swift in Sources */,
+				95EF47A4230A30AA00ED72E8 /* LocalTilesSource.swift in Sources */,
+				95EF47A6230A30AA00ED72E8 /* TilesSource.swift in Sources */,
 				95F089BA230A04F2009B61DB /* AppDelegate.swift in Sources */,
-				95EF47A3230A30AA00ED72E8 /* RemoteMapSource.swift in Sources */,
+				95EF47A3230A30AA00ED72E8 /* RemoteTilesSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
