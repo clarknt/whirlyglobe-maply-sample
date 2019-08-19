@@ -8,7 +8,7 @@ target 'WhirlyGlobe-Maply-Sample' do
   use_frameworks!
 
   # Pods for WhirlyGlobe-Maply-Sample
-  
+  ∂d
   # fix the commit version for now. Would have fixed to tag v2.6.1 but that did not compile
   pod 'WhirlyGlobe', :git => 'https://github.com/mousebird/WhirlyGlobe', :commit => '6f26b0e'
 end
