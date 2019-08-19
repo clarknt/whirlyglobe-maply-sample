@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-WhirlyGlobe-Maply-Sample/Pods-WhirlyGlobe-Maply-Sample-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework
+${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework
+${BUILT_PRODUCTS_DIR}/SMCalloutView/SMCalloutView.framework
+${BUILT_PRODUCTS_DIR}/WhirlyGlobe/WhirlyGlobe.framework
+${BUILT_PRODUCTS_DIR}/libjson/libjson.framework
+${BUILT_PRODUCTS_DIR}/proj4/proj4.framework

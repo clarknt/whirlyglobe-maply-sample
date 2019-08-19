@@ -1,0 +1,6 @@
+framework module libjson {
+  umbrella header "libjson-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,14 @@
+project 'WhirlyGlobe-Maply-Sample.xcodeproj'
+
+# Uncomment the next line to define a global platform for your project
+platform :ios, '12.4'
+
+target 'WhirlyGlobe-Maply-Sample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for WhirlyGlobe-Maply-Sample
+  
+  # fix the commit version for now. Would have fixed to tag v2.6.1 but that did not compile
+  pod 'WhirlyGlobe', :git => 'https://github.com/mousebird/WhirlyGlobe', :commit => '6f26b0e'
+end

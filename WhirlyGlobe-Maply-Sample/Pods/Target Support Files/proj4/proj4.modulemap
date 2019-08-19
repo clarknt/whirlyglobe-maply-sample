@@ -1,0 +1,6 @@
+framework module proj4 {
+  umbrella header "proj4-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/WhirlyGlobe
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FMDB" "${PODS_CONFIGURATION_BUILD_DIR}/KissXML" "${PODS_CONFIGURATION_BUILD_DIR}/SMCalloutView" "${PODS_CONFIGURATION_BUILD_DIR}/libjson" "${PODS_CONFIGURATION_BUILD_DIR}/proj4"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "$(PODS_ROOT)/eigen/" "$(PODS_ROOT)/KissXML/KissXML/" "${PODS_ROOT}/WhirlyGlobe/common/local_libs/protobuf/src/" "${PODS_ROOT}/WhirlyGlobe/common/local_libs/laszip/include/" "${PODS_ROOT}/WhirlyGlobe/common/local_libs/clipper" "$(SDKROOT)/usr/include/libxml2" "${PODS_ROOT}/WhirlyGlobe/common/local_libs/glues/include/" "$(PODS_ROOT)/WhirlyGlobe/ios/library/WhirlyGlobe-MaplyComponent/include/private/" "$(PODS_ROOT)/WhirlyGlobe/ios/library/WhirlyGlobe-MaplyComponent/include/vector_tiles/"
+OTHER_LDFLAGS = $(inherited) -l"c++" -l"sqlite3" -l"xml2" -l"z" -framework "CFNetwork" -framework "CoreLocation" -framework "MobileCoreServices" -framework "OpenGLES" -framework "SystemConfiguration" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/WhirlyGlobe
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES

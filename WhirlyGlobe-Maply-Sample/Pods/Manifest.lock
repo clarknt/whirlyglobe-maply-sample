@@ -1,0 +1,57 @@
+PODS:
+  - eigen (3.2.10)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - KissXML (5.2.3)
+  - libjson (7.6.1)
+  - proj4 (4.8.0)
+  - SMCalloutView (2.1.5)
+  - WhirlyGlobe (2.6.1):
+    - WhirlyGlobe/MaplyComponent (= 2.6.1)
+  - WhirlyGlobe/glues (2.6.1)
+  - WhirlyGlobe/locallibs (2.6.1)
+  - WhirlyGlobe/MaplyComponent (2.6.1):
+    - eigen
+    - FMDB
+    - KissXML
+    - libjson
+    - proj4
+    - SMCalloutView
+    - WhirlyGlobe/glues
+    - WhirlyGlobe/locallibs
+
+DEPENDENCIES:
+  - WhirlyGlobe (from `https://github.com/mousebird/WhirlyGlobe`, commit `6f26b0e`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - eigen
+    - FMDB
+    - KissXML
+    - libjson
+    - proj4
+    - SMCalloutView
+
+EXTERNAL SOURCES:
+  WhirlyGlobe:
+    :commit: 6f26b0e
+    :git: https://github.com/mousebird/WhirlyGlobe
+
+CHECKOUT OPTIONS:
+  WhirlyGlobe:
+    :commit: 6f26b0e
+    :git: https://github.com/mousebird/WhirlyGlobe
+
+SPEC CHECKSUMS:
+  eigen: e2d5ffb7be5a884d4608ebe35a97b6f65e13ed8b
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  KissXML: 09f88ff8161fd058d67b70740b8b516687b52823
+  libjson: 1a065ca64704a5d1b51c3754268998942d57ac6f
+  proj4: 234525105d05a33b2ae9a90a6fe3935f7a246f7e
+  SMCalloutView: 5c0ee363dc8e7204b2fda17dfad38c93e9e23481
+  WhirlyGlobe: 9d3296f5c951c7e38de0ffad791c64a54031711b
+
+PODFILE CHECKSUM: 79575cce3e312c86a6c7fd8611d0d127965faf38
+
+COCOAPODS: 1.7.5

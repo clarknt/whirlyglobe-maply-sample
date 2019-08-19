@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15D70C790B7A9A6F6713A8F9 /* Pods_WhirlyGlobe_Maply_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2535F997B3CCD8109FC66B7D /* Pods_WhirlyGlobe_Maply_Sample.framework */; };
+		95F089BA230A04F2009B61DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F089B9230A04F2009B61DB /* AppDelegate.swift */; };
+		95F089BC230A04F2009B61DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F089BB230A04F2009B61DB /* ViewController.swift */; };
+		95F089BF230A04F2009B61DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F089BD230A04F2009B61DB /* Main.storyboard */; };
+		95F089C1230A04F3009B61DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F089C0230A04F3009B61DB /* Assets.xcassets */; };
+		95F089C4230A04F3009B61DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F089C2230A04F3009B61DB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2535F997B3CCD8109FC66B7D /* Pods_WhirlyGlobe_Maply_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhirlyGlobe_Maply_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F089B6230A04F2009B61DB /* WhirlyGlobe-Maply-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhirlyGlobe-Maply-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F089B9230A04F2009B61DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95F089BB230A04F2009B61DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95F089BE230A04F2009B61DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95F089C0230A04F3009B61DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95F089C3230A04F3009B61DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95F089C5230A04F3009B61DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3BEB8987B41282B8D9ED210 /* Pods-WhirlyGlobe-Maply-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhirlyGlobe-Maply-Sample.debug.xcconfig"; path = "Target Support Files/Pods-WhirlyGlobe-Maply-Sample/Pods-WhirlyGlobe-Maply-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		C8976905D0157D78F41B1C8B /* Pods-WhirlyGlobe-Maply-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhirlyGlobe-Maply-Sample.release.xcconfig"; path = "Target Support Files/Pods-WhirlyGlobe-Maply-Sample/Pods-WhirlyGlobe-Maply-Sample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95F089B3230A04F2009B61DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D70C790B7A9A6F6713A8F9 /* Pods_WhirlyGlobe_Maply_Sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B88CF5CEE75C2A73EB406DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3BEB8987B41282B8D9ED210 /* Pods-WhirlyGlobe-Maply-Sample.debug.xcconfig */,
+				C8976905D0157D78F41B1C8B /* Pods-WhirlyGlobe-Maply-Sample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4E84A84354972B368E66D51C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2535F997B3CCD8109FC66B7D /* Pods_WhirlyGlobe_Maply_Sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95F089AD230A04F2009B61DB = {
+			isa = PBXGroup;
+			children = (
+				95F089B8230A04F2009B61DB /* WhirlyGlobe-Maply-Sample */,
+				95F089B7230A04F2009B61DB /* Products */,
+				3B88CF5CEE75C2A73EB406DA /* Pods */,
+				4E84A84354972B368E66D51C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95F089B7230A04F2009B61DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95F089B6230A04F2009B61DB /* WhirlyGlobe-Maply-Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95F089B8230A04F2009B61DB /* WhirlyGlobe-Maply-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				95F089B9230A04F2009B61DB /* AppDelegate.swift */,
+				95F089BB230A04F2009B61DB /* ViewController.swift */,
+				95F089BD230A04F2009B61DB /* Main.storyboard */,
+				95F089C0230A04F3009B61DB /* Assets.xcassets */,
+				95F089C2230A04F3009B61DB /* LaunchScreen.storyboard */,
+				95F089C5230A04F3009B61DB /* Info.plist */,
+			);
+			path = "WhirlyGlobe-Maply-Sample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95F089B5230A04F2009B61DB /* WhirlyGlobe-Maply-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F089C8230A04F3009B61DB /* Build configuration list for PBXNativeTarget "WhirlyGlobe-Maply-Sample" */;
+			buildPhases = (
+				A2194F763BBDE3636FAC3FC0 /* [CP] Check Pods Manifest.lock */,
+				95F089B2230A04F2009B61DB /* Sources */,
+				95F089B3230A04F2009B61DB /* Frameworks */,
+				95F089B4230A04F2009B61DB /* Resources */,
+				12AF66C02C386125BA03548E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WhirlyGlobe-Maply-Sample";
+			productName = "WhirlyGlobe-Maply-Sample";
+			productReference = 95F089B6230A04F2009B61DB /* WhirlyGlobe-Maply-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95F089AE230A04F2009B61DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = clarknt;
+				TargetAttributes = {
+					95F089B5230A04F2009B61DB = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 95F089B1230A04F2009B61DB /* Build configuration list for PBXProject "WhirlyGlobe-Maply-Sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95F089AD230A04F2009B61DB;
+			productRefGroup = 95F089B7230A04F2009B61DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95F089B5230A04F2009B61DB /* WhirlyGlobe-Maply-Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95F089B4230A04F2009B61DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F089C4230A04F3009B61DB /* LaunchScreen.storyboard in Resources */,
+				95F089C1230A04F3009B61DB /* Assets.xcassets in Resources */,
+				95F089BF230A04F2009B61DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12AF66C02C386125BA03548E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhirlyGlobe-Maply-Sample/Pods-WhirlyGlobe-Maply-Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhirlyGlobe-Maply-Sample/Pods-WhirlyGlobe-Maply-Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhirlyGlobe-Maply-Sample/Pods-WhirlyGlobe-Maply-Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2194F763BBDE3636FAC3FC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhirlyGlobe-Maply-Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95F089B2230A04F2009B61DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F089BC230A04F2009B61DB /* ViewController.swift in Sources */,
+				95F089BA230A04F2009B61DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95F089BD230A04F2009B61DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F089BE230A04F2009B61DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95F089C2230A04F3009B61DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F089C3230A04F3009B61DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95F089C6230A04F3009B61DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95F089C7230A04F3009B61DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95F089C9230A04F3009B61DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3BEB8987B41282B8D9ED210 /* Pods-WhirlyGlobe-Maply-Sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WhirlyGlobe-Maply-Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "clarknt.WhirlyGlobe-Maply-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95F089CA230A04F3009B61DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8976905D0157D78F41B1C8B /* Pods-WhirlyGlobe-Maply-Sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WhirlyGlobe-Maply-Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "clarknt.WhirlyGlobe-Maply-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95F089B1230A04F2009B61DB /* Build configuration list for PBXProject "WhirlyGlobe-Maply-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F089C6230A04F3009B61DB /* Debug */,
+				95F089C7230A04F3009B61DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F089C8230A04F3009B61DB /* Build configuration list for PBXNativeTarget "WhirlyGlobe-Maply-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F089C9230A04F3009B61DB /* Debug */,
+				95F089CA230A04F3009B61DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95F089AE230A04F2009B61DB /* Project object */;
+}
