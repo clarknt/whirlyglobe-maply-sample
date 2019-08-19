@@ -12,8 +12,19 @@ Terrain and Toner map tiles by [Stamen Design](http://stamen.com/), under [CC BY
 
 Watercolor map tiles by [Stamen Design](http://stamen.com/), under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0). Data by [OpenStreetMap](http://openstreetmap.org), under [CC BY SA](http://creativecommons.org/licenses/by-sa/3.0).
 
+Land surface temperature layer thanks to [NASA GIBS](https://wiki.earthdata.nasa.gov/display/GIBS/GIBS+Available+Imagery+Products).
+
+Coastline layer, Coastlines / Border / Roads layer thanks to [NASA GIBS](https://wiki.earthdata.nasa.gov/display/GIBS/GIBS+Available+Imagery+Products). Data by [OpenStreetMap](http://openstreetmap.org), under [ODbL](http://www.openstreetmap.org/copyright). 
+
 ## Setup
 
 Run ```pod install```, then open the workspace.
 
 >Note: before running pod install, mercurial must be installed to satisfy a WhirlyGlobe-Maply dependecy, "eigen". 
+
+## Screenshots
+
+![screen1](screenshots/screen01.png)
+![screen2](screenshots/screen02.png)
+![screen3](screenshots/screen03.png)
+![screen4](screenshots/screen04.png)
